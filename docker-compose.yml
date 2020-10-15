@@ -2,7 +2,7 @@ version: '3.6'
 services:
 
   viewer:
-    image: ohif/viewer:v3.7.1.10058
+    image: ohif/viewer:latest
     container_name: viewer
     depends_on:
       - orthanc
@@ -24,6 +24,8 @@ services:
     depends_on:
       - postgres
     restart: always
+    ports:
+      - '40616:4042'
     networks:
       - frontend
       - backend
