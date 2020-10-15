@@ -4,14 +4,14 @@ window.config = {
     whiteLabelling: {},
     extensions: [],
     showStudyList: true,
-    filterQueryParam: false,
+    filterQueryParam: true,
     servers: {
       dicomWeb: [
         {
           name: 'ORTHANC',
-          wadoUriRoot: 'http://localhost:80/pacs/wado',
-          qidoRoot: 'http://localhost:80/pacs/dicom-web',
-          wadoRoot: 'http://localhost:80/pacs/dicom-web',
+          wadoUriRoot: 'http://104.199.175.107:80/pacs/wado',
+          qidoRoot: 'http://104.199.175.107:80/pacs/dicom-web',
+          wadoRoot: 'http://104.199.175.107:80/pacs/dicom-web',
           qidoSupportsIncludeField: true,
           imageRendering: 'wadors',
           thumbnailRendering: 'wadors',

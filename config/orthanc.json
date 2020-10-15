@@ -114,7 +114,7 @@
     // "Latin5", "Cyrillic", "Windows1251", "Arabic", "Greek", "Hebrew",
     // "Thai", "Japanese", "Chinese", "JapaneseKanji", "Korean", and
     // "SimplifiedChinese".
-    "DefaultEncoding" : "Latin1",
+    "DefaultEncoding" : "Utf8",
   
     // The transfer syntaxes that are accepted by Orthanc C-Store SCP
     "DeflatedTransferSyntaxAccepted"     : true,
